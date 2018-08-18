@@ -1,0 +1,122 @@
+ body{
+    
+    font-family: Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #a9d7d3;
+    text-align: center;
+    min-width: 320px;
+}
+
+h1{
+    font-size: 1.8em;
+    font-weight: bold;
+}
+p{
+    font-size: 20px;
+    padding: 5px;
+}
+#wrap{
+    box-sizing: border-box;
+    background-color: #fafafa;
+    border-radius: 5px;
+    margin: 10px auto;
+    padding: 10px;
+    height: auto;
+    width: 75%;
+}
+.row{
+    margin-top: 20px;
+    height: auto;
+    font-size: 1em;
+}
+.left-col{
+    display: inline-block;
+    margin-right: 2%;
+    text-align: right;
+    width: 45%;
+    vertical-align: top;
+}
+.right-col{
+    display: inline-block;
+    text-align: left;
+    width:45%;
+    
+}
+.input-field{
+    border: 1px solid lightgray;
+    border-radius: 3px;
+    padding: 4px;
+    height: 20px;
+    width: 70%;
+}
+#dropdown, #like{
+    border-radius: 3px;
+    border: 1px solid lightgray;
+    padding: 5px;
+    height: 30px;
+    width: 140px;
+}
+.radio, .checkbox{
+
+    display: block;
+    margin-top: 5px;
+}
+textarea{
+    display: block;
+    height: 60px;
+    width: 60%;
+}
+#submit{
+    background-color:#59ace0;
+    border-radius: 5px;
+    border: 2px solid;
+    color: #fff;
+    font-size: 16px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    height: 45px;
+    width: 100px;
+}
+@media screen and (max-width: 850px){
+    #wrap{
+        width: 85%;
+    }
+    #dropdown, #like{
+        width: 130px;
+    }
+    textarea{
+        width: 80%;
+    }
+    .input-field{
+        width: 80%;
+    }
+
+}
+@media screen and (max-width: 500px){
+    #wrap{
+        width: 90%;
+    }
+    .left-col, .right-col{
+        box-sizing: border-box;
+        display: block;
+        margin: 0 10px;
+        padding: 0 15px; 
+        text-align: left;
+        width: 100%;
+    }
+    .input-field{
+        margin-top: 10px;
+        width: 85%;
+    }
+     textarea{
+        margin-top: 15px;
+        width: 90%;
+    }
+    #dropdown, #like{
+        margin-top: 10px;
+        width: 120px; 
+    }
+     
+
+}
